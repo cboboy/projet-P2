@@ -1,0 +1,114 @@
+/* Les couleurs de la charte sont le bleu (#0065FC), une version plus
+claire de ce bleu (#DEEBFF) et le gris pour le fond (#F2F2F2). */
+/* header */
+
+body{
+	font-family: 'Raleway', Arial, sans-serif;
+    width: 992px;
+    padding: 0 40px 0px 40px;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 0 20px 0;
+
+}
+
+nav img{
+    height: 35px;
+    margin: 0 0 0 10px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav li{
+    margin: 0 0 0 40px;
+    font-size: 13px;
+}
+
+/* main */
+
+h1{
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+p{
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+#recherche {
+    display: flex;
+    align-items: center;
+}
+
+#logo-recherche{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F2F2;
+    border: 3px #F2F2F2 solid;
+    width: 37px;
+    height: 40px;
+    border-radius: 15px 0 0 15px;
+}
+
+#champ-recherche{
+    border: 3px #F2F2F2 solid;
+    margin: 0px;
+    text-indent:5px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Raleway', Arial, sans-serif;
+}
+
+#bp-recherche{
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    background-color: #0065FC;
+    border: 3px #0065FC solid;
+    width: 101px;
+    height: 46px;
+    border-radius: 0 13px 13px 0;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px)
+{
+    body{
+        width: auto;
+    }
+
+}
+
+@media all and (max-width: 768px)
+{
+    #bp-recherche{
+        color: #ffffff;
+        justify-content: center;
+        align-items: center;
+        background-color: #fc0000;
+        border: 3px #fc0000 solid;
+        width: 101px;
+        height: 46px;
+        border-radius: 0 13px 13px 0;
+        font-family: 'Raleway', Arial, sans-serif;
+        font-weight: bold;
+        letter-spacing: 1px;
+        font-size: 13px;
+    }
+      
+}

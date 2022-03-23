@@ -2,8 +2,41 @@
 <html lang="fr">
 	<head>
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="style.css" />
-		<title>cours tableau</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<title>Booki</title>
+		<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/27ff353dfa.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="./css/style.css" />
 	</head>
-	<body></body>
+	<body>
+		<header>
+			<nav>
+				<img src="./images/logo/Booki.png" alt="logo booki">
+				<ul>
+					<li><a href="#">Hébergements</a></li>
+					<li><a href="#">Activités</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<h1>Trouvez votre hébergements pour des vacances de rêve</h1>
+			<p>En plein centre ville ou pleine nature</p>
+			<div id="recherche">
+				<div id="logo-recherche">
+					<i class="fa-solid fa-location-dot"></i>
+				</div>
+				<form method="post" action="traitement.php"></form>
+					<p>
+						<input type="text" name="champ-recherche" id="champ-recherche" placeholder="Marseille, France" size="20" maxlength="20" style="height:38px;">
+					</p>
+					<button id="bp-recherche" type="button">
+						Rechercher
+					</button>
+				</form>	
+			</div>
+		</main>
+		<footer>
+
+		</footer>
+	</body>
 </html>
