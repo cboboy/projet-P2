@@ -12,13 +12,18 @@
 		<header>
 			<nav>
 				<img src="./images/logo/Booki.png" alt="logo booki">
-				<ul>
-					<li><a href="#">Hébergements</a></li>
-					<li><a href="#">Activités</a></li>
-				</ul>
+				<div id="nav">
+					<div>
+						<a href="#ancre-hebergement"><span style="padding:15px;"></span>Hébergements<span style="padding:15px;"></span></a>
+					</div>
+					<div>
+						<a href="#ancre-activites"><span style="padding:15px;"></span>Activités<span style="padding:15px;"></span></a>
+					</div>
+				</div>
 			</nav>
 		</header>
 		<main>
+			<!-- Bp recherche -->
 			<h1>Trouvez votre hébergements pour des vacances de rêve</h1>
 			<p>En plein centre ville ou pleine nature</p>
 			<div id="recherche">
@@ -29,11 +34,91 @@
 					<p>
 						<input type="text" name="champ-recherche" id="champ-recherche" placeholder="Marseille, France" size="20" maxlength="20" style="height:38px;">
 					</p>
+					<div id="box-bp">
+					</div>
 					<button id="bp-recherche" type="button">
 						Rechercher
 					</button>
+					<button id="bp-icon" type="button">
+						<i class="fa-solid fa-magnifying-glass"></i>
+					</button>
 				</form>	
 			</div>
+			<!-- filtres -->
+			<section id="filtre">
+				<p>Filtres</p>
+				<div id="smart-filtre">
+					<div class="class-filtre">
+						<div class="logo-filtre">
+							<i class="fa-solid fa-money-bill-wave"></i>
+						</div>				
+						<button id="f-filtre" type="button">
+							&Eacuteconomique
+						</button>		
+					</div>
+					<div class="class-filtre">
+						<div class="logo-filtre">
+							<i class="fa-solid fa-child-reaching"></i>
+						</div>
+						<button id="f-filtre" type="button">
+							Familial
+						</button>
+					</div>
+					<div class="class-filtre">
+						<div class="logo-filtre">
+							<i class="fa-solid fa-heart"></i>
+						</div>
+						<button id="f-filtre" type="button">
+							Romantique
+						</button>			
+					</div>
+					<div class="class-filtre">
+						<div class="logo-filtre">
+							<i class="fa-solid fa-dog"></i>
+						</div>
+						<button id="f-filtre" type="button">
+							Animaux autorisés
+						</button>									
+					</div>
+				</div>
+			</section>
+			<section id="hotel">
+				<div id="populaires">
+					<h2>Les plus populaires</h2>
+					<div class="img-populaire">
+					</div>
+					<div class="img-populaire">
+					</div>
+					<div class="img-populaire">
+					</div>
+				</div>
+				<div id="hebergements">
+					<h3 id="ancre-hebergement">Hébergements à Marseille</h3>
+					<div class="img-hebergements">
+						<img src="./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="photo auberge la cannebière">
+						<p>Auberge La Cannebière</p>
+						<p>Nuit à partir de 25€</p>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+						<i class="fa-solid fa-star"></i>
+					</div>
+					<div class="img-hebergements">
+					</div>
+					<div class="img-hebergements">
+					</div>
+					<div class="img-hebergements">
+					</div>
+					<div class="img-hebergements">
+					</div>
+					<div class="img-hebergements">
+					</div>
+					<a href="#">Afficher plus</a>
+				</div>
+			</section>
+			<section id="activites">
+				<h4 id="ancre-activites">Activités à Marseille</h4>
+			</section>
 		</main>
 		<footer>
 
