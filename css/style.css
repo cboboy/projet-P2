@@ -228,9 +228,11 @@ p #nature {
   margin-bottom: 20px;
 }
 #information p {
-  margin-left: 20px;
+  margin-left: 10px;
 }
 #logo-information {
+  position: relative;
+  bottom: 2px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -675,6 +677,7 @@ footer {
   #information p {
     margin-left: 8px;
     font-size: 15px;
+    max-width: 383px;
   }
 
   #hotel {
