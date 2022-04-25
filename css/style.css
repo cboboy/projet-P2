@@ -171,9 +171,9 @@ p #nature {
 .class-filtre {
   display: flex;
   align-items: center;
-  border: 3px #f2f2f2 solid;
+  border: 2px #dddddd solid;
   width: auto;
-  height: 38px;
+  height: 40px;
   font-size: 20px;
   border-radius: 30px 30px;
   font-weight: bold;
