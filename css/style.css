@@ -65,6 +65,7 @@ nav img {
   justify-content: center;
   align-items: center;
   border-top: transparent 3px solid;
+  border-bottom: transparent 3px solid;
   width: 50%;
   max-width: 50%;
 }
@@ -631,7 +632,7 @@ footer {
   }
 
   .ancre-nav:hover {
-    border-top: none;
+    border-top: transparent 3px solid;
     border-bottom: #0065fc 3px solid;
   }
 
