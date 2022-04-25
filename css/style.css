@@ -201,9 +201,11 @@ p #nature {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+  right: 4px;
   color: #ffffff;
-  background-color: #f2f2f2;
-  border: 3px #f2f2f2 solid;
+  background-color: #deebff;
+  border: 3px #deebff solid;
   width: 38px;
   height: 38px;
   border-radius: 30px 30px;
@@ -625,7 +627,6 @@ footer {
     width: 100%;
     height: 42px;
     margin-top: 20px;
-
     justify-content: center;
   }
 
